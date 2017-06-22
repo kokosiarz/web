@@ -1,3 +1,13 @@
-.top-section{
+.white-section{
 	background-color: white;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+}
+.white-section h1 {
+	text-align: center;
+}
+
+.mdl-grid.center-items {
+  justify-content: center;
 }
