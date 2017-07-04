@@ -1,19 +1,27 @@
 
 <html>
   <head>
+
+	<meta charset="UTF-8">
+
     <link rel="stylesheet" href="timeline.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="cards.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+
 	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script defer src="js/jquery-3.2.1.min.js"></script>
+	<script defer src="js/display.js"></script>
+
+
   </head>
   <body>
   <!-- Wide card with share menu button -->
 	<div class="white-section">
 	  <h1>Title</h1>
 	  <div class="mdl-grid mdl-grid center-items">
-	  
+
 			<div class="card profile-card-wide mdl-card mdl-shadow--2dp">
 			  <div class="mdl-card__title">
 				<h2 class="mdl-card__title-text">Krzysztof Kokosiński</h2>
@@ -30,34 +38,34 @@
 			  <div class="mdl-card__supporting-text">
 				<ul>
 					<li>asdasd</li>
-					<li>asdasd</li>					
-					<li>asdasd</li>					
+					<li>asdasd</li>
+					<li>asdasd</li>
 				</ul>
 			  </div>
 			</div>
-			
+
 			<div class="card categories-card-wide mdl-card mdl-shadow--2dp">
 			  <div class="mdl-card__title">
 				<h2 class="mdl-card__title-text">show skills in field of:</h2>
 			  </div>
 			  <div class="mdl-card__supporting-text">
-				<ul>
-					<li>asdasd</li>
-					<li>asdasd</li>					
-					<li>asdasd</li>					
-				</ul>
+
+					<p><input type="checkbox" class="programming-box" checked/>Programming</p>
+					<p><input type="checkbox" class="web-box" checked/>Web Developement</p>
+					<p><input type="checkbox" class="art-box" checked/>Arts</p>
+
 			  </div>
 			</div>
-	
+
 	  </div>
 	</div>
 	<div id="timeline" class="timeline">
 		<div class="entries">
 		  <div class="entry">
-			<div class="title">2011</div>
-			<div class="body">
-			  <p>Neque sunt voluptatibus repellat pariatur ut enim. Eveniet rerum suscipit eveniet amet dignissimos. Doloremque et distinctio quod molestiae ut.</p>
-			</div>
+  			<div class="title">2011</div>
+  			<div class="body">
+  			  <p class="">Programming placeholder.</p>
+  			</div>
 		  </div>
 		  <div class="entry">
 			<div class="title">2012</div>
@@ -71,7 +79,7 @@
 			  <p>Rerum sit libero possimus amet excepturi. Exercitationem enim dolores sunt praesentium dolorum praesentium.</p>
 			</div>
 		  </div>
-		  <div class="entry">
+		  <div class="entry programming">
 			<div class="title">2014</div>
 			<div class="body">
 			  <p>Voluptatibus veniam ea reprehenderit atque. Reiciendis non laborum adipisci ipsa pariatur omnis. Sed ipsam repudiandae velit. Omnis libero nostrum aperiam nemo dolor ea eos eius. Esse a non itaque quidem.</p>
@@ -98,10 +106,10 @@
 		  </div>
 	  </div>
 	</div>
-	
+
 	<div class="white-section">
 		<h1>Projects</h1>
-		
+
 		  <div class="demo-card-wide mdl-card mdl-shadow--2dp">
 			  <div class="mdl-card__title">
 				<h2 class="mdl-card__title-text">Welcome</h2>
@@ -122,6 +130,6 @@
 			  </div>
 			</div>
 		</div>
-	
-  </body>	
+
+  </body>
 </html>
