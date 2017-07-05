@@ -4,7 +4,16 @@
 	position: relative;
 	z-index: 1;
 }
-.white-section h1 {
+
+.dark-section{
+	background-color: #1D1D1D;
+	color: white;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+}
+
+.white-section, .dark-section h1 {
 	text-align: center;
 }
 

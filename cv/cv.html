@@ -1,4 +1,4 @@
-
+﻿
 <html>
   <head>
     <link rel="stylesheet" href="timeline.css">
@@ -11,9 +11,9 @@
   <body>
   <!-- Wide card with share menu button -->
 	<div class="white-section">
-	  <h1>Title</h1>
+	  <h1>Curriculum Vitae</h1>
 	  <div class="mdl-grid mdl-grid center-items">
-	  
+
 			<div class="card profile-card-wide mdl-card mdl-shadow--2dp">
 			  <div class="mdl-card__title">
 				<h2 class="mdl-card__title-text">Krzysztof Kokosiński</h2>
@@ -24,31 +24,56 @@
 			</div>
 
 			<div class="card info-card-wide mdl-card mdl-shadow--2dp">
-			  <div class="mdl-card__title">
-				<h2 class="mdl-card__title-text">dane:</h2>
-			  </div>
 			  <div class="mdl-card__supporting-text">
-				<ul>
-					<li>asdasd</li>
-					<li>asdasd</li>					
-					<li>asdasd</li>					
-				</ul>
+				<table class="personal_data">
+					<tr>
+						<th>born:</th><td>10.06.1987 </td>
+					<tr>
+					</tr>					
+						<th>address:</th><td>Rabczańska 16, 30-698 Kraków</td>
+					</tr>
+					</tr>					
+						<th>e-mail:</th><td>kokosiarz@gmail.com</td>
+					</tr>	
+					</tr>					
+						<th>mobile:</th><td>+48 531 044 134</td>
+					</tr>					
+				</table>
 			  </div>
 			</div>
-			
+
 			<div class="card categories-card-wide mdl-card mdl-shadow--2dp">
 			  <div class="mdl-card__title">
-				<h2 class="mdl-card__title-text">show skills in field of:</h2>
+				<h2 class="mdl-card__title-text">Show me:</h2>
 			  </div>
 			  <div class="mdl-card__supporting-text">
-				<ul>
-					<li>asdasd</li>
-					<li>asdasd</li>					
-					<li>asdasd</li>					
-				</ul>
+			   <table>
+				  <tr><td> 
+					 <label class="mdl-checkbox mdl-js-checkbox" for="checkbox1">
+						<input type="checkbox" id="checkbox1" class="mdl-checkbox__input" checked>
+						<span class="mdl-checkbox__label">Web design</span>
+					 </label>
+				  </td></tr>
+				  <tr><td> 
+					 <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox2">
+						<input type="checkbox" id="checkbox2" class="mdl-checkbox__input">
+						<span class="mdl-checkbox__label">Programming</span>
+					 </label>	  
+				  </td></tr>
+				  <tr><td> 
+					 <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox3">
+						<input type="checkbox" id="checkbox3" class="mdl-checkbox__input">
+						<span class="mdl-checkbox__label">Testing</span>
+					 </label>	   
+				  </td></tr>
+			   </table>  
 			  </div>
+			  	<div class="mdl-card__title">
+					<h2 class="mdl-card__title-text">Printable one-page CV:</h2>
+				</div>
+			  
 			</div>
-	
+
 	  </div>
 	</div>
 	<div id="timeline" class="timeline">
@@ -98,10 +123,10 @@
 		  </div>
 	  </div>
 	</div>
-	
-	<div class="white-section">
+
+	<div class="white-section container">
 		<h1>Projects</h1>
-		
+
 		  <div class="demo-card-wide mdl-card mdl-shadow--2dp">
 			  <div class="mdl-card__title">
 				<h2 class="mdl-card__title-text">Welcome</h2>
@@ -120,8 +145,35 @@
 				  <i class="material-icons">share</i>
 				</button>
 			  </div>
+		</div>
+	</div>
+	<div class="white-section container">	
+
+		<div class="skills">
+			<h1>Skills</h1>
+
+			  <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+				  <div class="mdl-card__title">
+					<h2 class="mdl-card__title-text">Welcome</h2>
+				  </div>
+				  <div class="mdl-card__supporting-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Mauris sagittis pellentesque lacus eleifend lacinia...
+				  </div>
+				  <div class="mdl-card__actions mdl-card--border">
+					<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+					  Get Started
+					</a>
+				  </div>
+				  <div class="mdl-card__menu">
+					<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+					  <i class="material-icons">share</i>
+					</button>
+				  </div>
 			</div>
 		</div>
-	
-  </body>	
+
+	</div>
+
+  </body>
 </html>

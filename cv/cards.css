@@ -13,3 +13,8 @@
 .profile-card-wide > .mdl-card__menu {
   color: #fff;
 }
+
+.personal_data th {
+	text-align: right;
+	padding: 10px;
+}
