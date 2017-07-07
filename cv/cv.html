@@ -1,127 +1,88 @@
-﻿
+
 <html>
-  <head>
+<head>
 
-	<meta charset="UTF-8">
+  <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="timeline.css">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="cards.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <link rel="stylesheet" href="timeline.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cards.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
 
-	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <script defer src="js/jquery-3.2.1.min.js"></script>
-	<script defer src="js/display.js"></script>
+  <script defer src="js/display.js"></script>
 
 
-  </head>
-  <body>
+</head>
+<body>
   <!-- Wide card with share menu button -->
-	<div class="white-section">
-	  <h1>Curriculum Vitae</h1>
-	  <div class="mdl-grid mdl-grid center-items">
+  <div class="white-section">
+    <h1>Curriculum Vitae</h1>
+    <div class="mdl-grid mdl-grid center-items">
 
-			<div class="card profile-card-wide mdl-card mdl-shadow--2dp">
-			  <div class="mdl-card__title">
-				<h2 class="mdl-card__title-text">Krzysztof Kokosiński</h2>
-			  </div>
-			  <div class="mdl-card__supporting-text">
-				Programmer, developer, sound engeneering and beer brewing hobbyst.
-			  </div>
-			</div>
+      <div class="card profile-card-wide mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Krzysztof Kokosiński</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          Programmer, developer, sound engeneering and beer brewing hobbyst.
+        </div>
+      </div>
 
-			<div class="card info-card-wide mdl-card mdl-shadow--2dp">
-			  <div class="mdl-card__supporting-text">
-				<table class="personal_data">
-					<tr>
-						<th>born:</th><td>10.06.1987 </td>
-					<tr>
-					</tr>					
-						<th>address:</th><td>Rabczańska 16, 30-698 Kraków</td>
-					</tr>
-					</tr>					
-						<th>e-mail:</th><td>kokosiarz@gmail.com</td>
-					</tr>	
-					</tr>					
-						<th>mobile:</th><td>+48 531 044 134</td>
-					</tr>					
-				</table>
-			  </div>
-			</div>
-
-			<div class="card categories-card-wide mdl-card mdl-shadow--2dp">
-			  <div class="mdl-card__title">
-				<h2 class="mdl-card__title-text">Show me:</h2>
-			  </div>
-			  <div class="mdl-card__supporting-text">
-
-			   <table>
-				  <tr><td> 
-					 <label class="mdl-checkbox mdl-js-checkbox" for="checkbox1">
-						<input type="checkbox" id="checkbox1" class="mdl-checkbox__input" checked>
-						<span class="mdl-checkbox__label">Web design</span>
-					 </label>
-				  </td></tr>
-				  <tr><td> 
-					 <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox2">
-						<input type="checkbox" id="checkbox2" class="mdl-checkbox__input">
-						<span class="mdl-checkbox__label">Programming</span>
-					 </label>	  
-				  </td></tr>
-				  <tr><td> 
-					 <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox3">
-						<input type="checkbox" id="checkbox3" class="mdl-checkbox__input">
-						<span class="mdl-checkbox__label">Testing</span>
-					 </label>	   
-				  </td></tr>
-			   </table>  
+      <div class="card info-card-wide mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__supporting-text">
+          <table class="personal_data">
+            <tr>
+              <th>born:</th><td>10.06.1987 </td>
+            </tr>
+            <tr>
+              <th>address:</th><td>Rabczańska 16, 30-698 Kraków</td>
+            </tr>
+            <tr>
+              <th>e-mail:</th><td>kokosiarz@gmail.com</td>
+            </tr>
+            <tr>
+              <th>mobile:</th><td>+48 531 044 134</td>
+            </tr>
+          </table>
 
 
-					<p><input type="checkbox" class="programming-box" checked/>Programming</p>
-					<p><input type="checkbox" class="web-box" checked/>Web Developement</p>
-					<p><input type="checkbox" class="art-box" checked/>Arts</p>
 
-			  </div>
-			  	<div class="mdl-card__title">
-					<h2 class="mdl-card__title-text">Printable one-page CV:</h2>
-				</div>
-			  
-			</div>
-
-	  </div>
-	</div>
-	<div id="timeline" class="timeline">
-		<div class="entries">
+        </div>
+        <div class="button">
+          <button class="mdl-button mdl-button--raised">GET PDF VERSION</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="timeline" class="timeline">
+    <div class="entries">
       <div class="entry">
         <div class="title">2017</div>
         <div class="body">
-          <p class="">C++ Developer/Tester, eNodeB, Ericsson sp z o.o.</p>
+          <p class="">C++/Erlang Developer/Tester, eNodeB, Ericsson sp z o.o.</p>
         </div>
       </div>
-		  <div class="entry">
-  			<div class="title">2016</div>
-  			<div class="body">
-  			  <p class="">Front-End, websites: <a href="http://magdalenamaslerz.pl/">magdalenamaslerz.pl</a>,
-            <a href="http://blog.szkolazlotnictwa.pl/">blog.szkolazlotnictwa.pl</a></p>
-  			</div>
-		  </div>
-		  <div class="entry">
-  			<div class="title">2013</div>
-  			<div class="body">
-  			  <p class="">Front-End, websites: <a href="http://magdalenamaslerz.pl/">szkolazlotnictwa.pl</a>,
-            <a href="http://dustbowl.pl/">dustbowl.pl</a></p>
-  			</div>
-		  </div>
-		  <div class="entry">
-			<div class="title big">2011</div>
-  			<div class="body">
-  			  <p>C/Assembler/C++ Developer, Core Networks, Ericspol sp z o.o.</p>
-  			</div>
-		  </div>
       <div class="entry">
-        <div class="title">2011</div>
+        <div class="title big">2016</div>
         <div class="body">
+          <p class="">Front-End, websites: <a href="http://magdalenamaslerz.pl/">magdalenamaslerz.pl</a>,
+            <a href="http://blog.szkolazlotnictwa.pl/">blog.szkolazlotnictwa.pl</a></p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="title">2013</div>
+        <div class="body">
+          <p class="">Front-End, websites: <a href="http://magdalenamaslerz.pl/">szkolazlotnictwa.pl</a>,
+            <a href="http://dustbowl.pl/">dustbowl.pl</a></p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="title big">2011</div>
+        <div class="body">
+          <p>C/Assembler/C++ Developer, Core Networks, Ericpol sp z o.o.</p>
           <p>Master Degree in Electronics and Telecommunications, AGH University of Science and Technology</p>
         </div>
       </div>
@@ -131,74 +92,68 @@
           <p>Developer/Tester of robust image watermarking scenarios, INDECT Project, AGH University of Science and Technology</p>
         </div>
       </div>
-		  <div class="entry programming">
-  			<div class="title">2009-2010</div>
-  			<div class="body">
-  			  <p>Russian Philology, Pedagogical University of Cracow</p>
-  			</div>
-		  </div>
+      <div class="entry programming">
+        <div class="title">2009-2010</div>
+        <div class="body">
+          <p>Russian Philology, Pedagogical University of Cracow</p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="title big">2003-2006</div>
+        <div class="body">
+          <p>VIII Liceum Ogólnokształcące Im. Stanisława Wyspiańskiego w Krakowie</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-		  <div class="entry">
-  			<div class="title big">2003-2006</div>
-  			<div class="body">
-  			  <p>VIII Liceum Ogólnokształcące Im. Stanisława Wyspiańskiego w Krakowie</p>
-  			</div>
-		  </div>
+  <div class="white-section">
 
-	  </div>
-	</div>
+    <h1>Projects</h1>
 
-	<div class="white-section">
-		<h1>Projects</h1>
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Dust Bowl</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          From year 2011 guitar and keyboard player in rock band <a href="http://dustbowl.pl/">Dust Bowl</a>
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            More info.
+          </a>
+        </div>
+        <div class="mdl-card__menu">
+          <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+            <i class="material-icons">share</i>
+          </button>
+        </div>
+      </div>
+    </div>
 
-		  <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-			  <div class="mdl-card__title">
-				<h2 class="mdl-card__title-text">Dust Bowl</h2>
-			  </div>
-			  <div class="mdl-card__supporting-text">
-				From year 2011 guitar and keyboard player in rock band <a href="http://dustbowl.pl/">Dust Bowl</a>
-			  </div>
-			  <div class="mdl-card__actions mdl-card--border">
-				<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-				  More info.
-        </a>
-			  </div>
-			  <div class="mdl-card__menu">
-				<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-				  <i class="material-icons">share</i>
-				</button>
-			  </div>
-		</div>
-	</div>
-	<div class="white-section container">	
+    <div class="white-section container">
 
-		<div class="skills">
-			<h1>Skills</h1>
+      <div class="skills">
 
-			  <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-				  <div class="mdl-card__title">
-					<h2 class="mdl-card__title-text">Welcome</h2>
-				  </div>
-				  <div class="mdl-card__supporting-text">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Mauris sagittis pellentesque lacus eleifend lacinia...
-				  </div>
-				  <div class="mdl-card__actions mdl-card--border">
-					<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-					  Get Started
-					</a>
-				  </div>
-				  <div class="mdl-card__menu">
-					<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-					  <i class="material-icons">share</i>
-					</button>
-				  </div>
-			</div>
-		</div>
+        <h1>Skills</h1>
 
-
-	</div>
-
+        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Programming Languages</h2>
+          </div>
+          <div class="mdl-card__supporting-text">
+            <div class = "skill-level">
+              <label>Python 3</label>
+              <div id="python" class="mdl-progress mdl-js-progress"></div>
+            </div>
+            <div class = "skill-level">
+              <label>C++</label>
+              <div id="cpp" class="mdl-progress mdl-js-progress"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>

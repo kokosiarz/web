@@ -18,3 +18,13 @@
 	text-align: right;
 	padding: 10px;
 }
+
+.mdl-card__supporting-text {
+  text-align: left;
+}
+
+/* SKILL CARDS OPTIONS */
+
+.skill-level {
+  margin-bottom: 10px;
+}
