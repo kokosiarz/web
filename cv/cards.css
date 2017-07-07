@@ -7,8 +7,8 @@
 }
 .profile-card-wide > .mdl-card__title {
   color: #fff;
-  height: 432px;
-  background: url("profpic.jpg") center / cover;
+  height: 492px;
+  background: url("img/profilepic.jpg") center / cover;
 }
 .profile-card-wide > .mdl-card__menu {
   color: #fff;
