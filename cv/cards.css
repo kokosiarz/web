@@ -18,6 +18,22 @@
 	text-align: right;
 	padding: 10px;
 }
+.social, .button {
+  text-align: center;
+}
+
+.info-card-contents {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.social img {
+  margin: 10px;
+}
+.button {
+  margin: 20px
+}
+
 
 .mdl-card__supporting-text {
   text-align: left;
