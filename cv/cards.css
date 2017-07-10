@@ -28,3 +28,8 @@
 .skill-level {
   margin-bottom: 10px;
 }
+
+.project-card, .skills-card {
+  display: inline-block !important;
+  margin: 20px
+}
