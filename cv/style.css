@@ -20,6 +20,9 @@
 	margin-left: 10px
 }
 
+.skill-category {
+	font-weight: bold;
+}
 
 .white-section, .dark-section h1 {
 	text-align: center;
