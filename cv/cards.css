@@ -2,6 +2,16 @@
   margin: 30px;
 }
 
+.card.profile-card-wide {
+	margin-right: 0px;
+	min-height: 500px;
+}
+.card.info-card-wide {
+	margin-left: 10px;
+	min-height: 500px;
+}
+
+
 .profile-card-wide.mdl-card {
   width: 512px;
 }
@@ -21,6 +31,7 @@
 .social, .button {
   text-align: center;
 }
+
 
 .info-card-contents {
   position: absolute;
@@ -47,5 +58,6 @@
 
 .project-card, .skills-card {
   display: inline-block !important;
+  vertical-align: top;
   margin: 20px
 }

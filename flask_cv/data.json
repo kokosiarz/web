@@ -1,0 +1,38 @@
+{
+  "personal data" : {
+    "name" : "Krzysztof Kokosiński",
+    "born" : "10.06.1987"
+  },
+
+  "projects" : [
+    {
+      "name" : "Dust Bowl",
+      "tags" : "webdesign, music",
+      "html_description" :
+        "<p>From year 2011 guitar and keyboard player in rock band <a href='http://dustbowl.pl/'>Dust Bowl</a></p>
+        <p>Also, author of the web page (Bootstrap + Umbraco CMS)</p>",
+      "button" : {
+        "button-label":"Listen",
+        "button-href":"http://dustbowl.pl/"
+      }
+    }
+  ],
+
+  "skill-groups" : [
+    {
+      "name":"programming languages",
+      "skills" : [
+        {
+          "name" : "C++",
+          "level" : "1"
+        },
+        {
+          "name" : "Python 3",
+          "level" : "5"
+        }
+      ]
+    }
+
+  ]
+
+}

@@ -13,13 +13,6 @@
 	z-index: 1;
 }
 
-.card.profile-card-wide {
-	margin-right: 0px;
-}
-.card.info-card-wide {
-	margin-left: 10px
-}
-
 .skill-category {
 	font-weight: bold;
 }

@@ -222,6 +222,52 @@
 
       <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card">
         <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Circle Placid</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          <p>Playing in a blues band is really cool thing to do, but after a hundread 12-bar blueses played and milion of pentatonic trips all over the fretboard you may start to
+          think of some change.
+          </p>
+          <p>Change has come as a cooperation with Jerry on vocals and me basically doing everything else. Our first approach was "let's become avant-garde of the new wave of polish black metal!".
+            Did we manage to? Not really, but we still do like the output :)
+          </p>
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.youtube.com/watch?v=a74ASPC34ew&list=PLekQG6L6JMJ2KLAWBngrNhRViY5bmu1xJ">
+            listen
+          </a>
+        </div>
+        <div class="mdl-card__menu">
+          <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+            <i class="material-icons">share</i>
+          </button>
+        </div>
+      </div>
+
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">>>Gęstwa<< Brewery</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          <p>There is a point in every mans life, when he feels he should do something important in his life. Like brew a beer.</p>
+          <p>Our first beer was a stout. We started brewing straight from malt, no umanly extracts allowed. And thats how it started, since now we have brewed about 20 beers,
+            (I hope this page is up to date! :D) mainly with strong american hop character.
+          </p>
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            More info.
+          </a>
+        </div>
+        <div class="mdl-card__menu">
+          <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+            <i class="material-icons">share</i>
+          </button>
+        </div>
+      </div>
+
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card project-video project-music">
+        <div class="mdl-card__title">
           <h2 class="mdl-card__title-text">Miasto z OFF'u</h2>
         </div>
         <div class="mdl-card__supporting-text">
@@ -263,9 +309,14 @@
               <label>Python 3</label>
               <div id="python" class="mdl-progress mdl-js-progress"></div>
             </div>
+            <script>
+              document.querySelector('#python').addEventListener('mdl-componentupgraded', function() {
+              this.MaterialProgress.setProgress(66);
+              });
+            </script>
             <div class = "skill-level">
               <label>Javascript</label>
-              <div id="sql" class="mdl-progress mdl-js-progress"></div>
+              <div id="sql" class="mdl-progress mdl-js-progress" progress="40"></div>
             </div>
             <div class = "skill-level">
               <label>Erlang</label>
