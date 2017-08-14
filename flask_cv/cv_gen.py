@@ -1,6 +1,5 @@
 # coding=UTF8
 import json
-import pdfkit
 from flask import Flask, render_template
 
 
@@ -16,7 +15,6 @@ def home():
 def pdf():
     with open('data.json',encoding='utf8') as data_file:
         data = json.load(data_file)
-    return pdfkit.from_string(render_template('cv.html',data=data, getid = lambda x : "skill_level_"+str(id(x))), False)
-
+        
 if __name__ == "__main__":
     app.run(debug=True)
