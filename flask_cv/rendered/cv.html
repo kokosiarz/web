@@ -4,17 +4,16 @@
 
   <meta charset="UTF-8">
 
-  <link rel="stylesheet" href="cv_files/timeline.css">
-  <link rel="stylesheet" href="cv_files/style.css">
-  <link rel="stylesheet" href="cv_files/cards.css">
-  <link rel="stylesheet" href="cv_files/icon.css">
-  <link rel="stylesheet" href="cv_files/material.css">
+  <link rel="stylesheet" href="cv_pliki/icon.css">
+  <link rel="stylesheet" href="cv_pliki/material.css">
+  <link rel="stylesheet" href="cv_pliki/timeline.css">
+  <link rel="stylesheet" href="cv_pliki/style.css">
+  <link rel="stylesheet" href="cv_pliki/cards.css">
 
-  <script defer="defer" src="cv_files/material.js"></script>
-  <script defer="defer" src="cv_files/jquery-3.html"></script>
-  <script defer="defer" src="cv_files/display.html"></script>
-
-
+  <script defer="defer" src="cv_pliki/material.js"></script>
+  <script defer="defer" src="cv_pliki/jquery-3.txt"></script>
+  <script defer="defer" src="cv_pliki/display.txt"></script>
+  <script src="cv_pliki/jspdf.js" integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- Wide card with share menu button -->
@@ -55,17 +54,17 @@
 
           <div class="social">
               
-              <a href="https://www.facebook.com/kokosiarz"><img src="cv_files/facebook.png"></a>
+              <a href="https://www.facebook.com/kokosiarz"><img src="cv_pliki/facebook.png"></a>
               
-              <a href="https://www.instagram.com/grandmaenjoysmusic/"><img src="cv_files/instagram.png"></a>
+              <a href="https://www.instagram.com/grandmaenjoysmusic/"><img src="cv_pliki/instagram.png"></a>
               
-              <a href="https://github.com/kokosiarz/"><img src="cv_files/github.png"></a>
+              <a href="https://github.com/kokosiarz/"><img src="cv_pliki/github.png"></a>
               
-              <a href="https://www.instagram.com/grandmaenjoysmusic/"><img src="cv_files/soundcloud.png"></a>
+              <a href="https://www.instagram.com/grandmaenjoysmusic/"><img src="cv_pliki/soundcloud.png"></a>
               
           </div>
           <div class="button">
-            <button class="mdl-button mdl-button--raised">GET PDF VERSION</button>
+            <button class="mdl-button mdl-button--raised" onclick="cv2pdf()">GET PDF VERSION</button>
           </div>
 
         </div>
@@ -76,7 +75,7 @@
   <div id="timeline" class="timeline">
     <div class="entries">
       <div class="entry">
-        <div class="title">2017</div>
+        <div class="title">2018</div>
         <div class="body">
           <p class="">C++/Erlang Developer/Tester, eNodeB, Ericsson sp z o.o.</p>
         </div>
@@ -100,6 +99,7 @@
         <div class="body">
           <p>C/Assembler/C++ Developer, Core Networks, Ericpol sp z o.o.</p>
           <p>Master Degree in Electronics and Telecommunications, AGH University of Science and Technology</p>
+          <p>Master Thesis: Analysis of Digital Watermarking in Spatial and Selected Spectral Domains</p>
         </div>
       </div>
       <div class="entry">
@@ -139,12 +139,12 @@
             <div class="skill-level">
 
               <label><span>
-                Python 3<span></span></span></label>
+                Python 3</span></label>
               
               
-              <div id="skill_level_103730656" class="mdl-progress mdl-js-progress is-upgraded" data-upgraded=",MaterialProgress"><div class="progressbar bar bar1" style="width: 60%;"></div><div class="bufferbar bar bar2" style="width: 100%;"></div><div class="auxbar bar bar3" style="width: 0%;"></div></div>
+              <div id="skill_level_61145440" class="mdl-progress mdl-js-progress is-upgraded" data-upgraded=",MaterialProgress"><div class="progressbar bar bar1" style="width: 60%;"></div><div class="bufferbar bar bar2" style="width: 100%;"></div><div class="auxbar bar bar3" style="width: 0%;"></div></div>
               <script>
-                document.querySelector("#skill_level_103730656").addEventListener('mdl-componentupgraded', function() {
+                document.querySelector("#skill_level_61145440").addEventListener('mdl-componentupgraded', function() {
                 this.MaterialProgress.setProgress(60);
                 });
               </script>
@@ -154,12 +154,12 @@
             <div class="skill-level">
 
               <label><span>
-                Javascript<span></span></span></label>
+                Javascript</span></label>
               
               
-              <div id="skill_level_103730696" class="mdl-progress mdl-js-progress is-upgraded" data-upgraded=",MaterialProgress"><div class="progressbar bar bar1" style="width: 30%;"></div><div class="bufferbar bar bar2" style="width: 100%;"></div><div class="auxbar bar bar3" style="width: 0%;"></div></div>
+              <div id="skill_level_61145400" class="mdl-progress mdl-js-progress is-upgraded" data-upgraded=",MaterialProgress"><div class="progressbar bar bar1" style="width: 30%;"></div><div class="bufferbar bar bar2" style="width: 100%;"></div><div class="auxbar bar bar3" style="width: 0%;"></div></div>
               <script>
-                document.querySelector("#skill_level_103730696").addEventListener('mdl-componentupgraded', function() {
+                document.querySelector("#skill_level_61145400").addEventListener('mdl-componentupgraded', function() {
                 this.MaterialProgress.setProgress(30);
                 });
               </script>
@@ -169,12 +169,12 @@
             <div class="skill-level">
 
               <label><span>
-                C++<span></span></span></label>
+                C++</span></label>
               
               
-              <div id="skill_level_104016768" class="mdl-progress mdl-js-progress is-upgraded" data-upgraded=",MaterialProgress"><div class="progressbar bar bar1" style="width: 20%;"></div><div class="bufferbar bar bar2" style="width: 100%;"></div><div class="auxbar bar bar3" style="width: 0%;"></div></div>
+              <div id="skill_level_61137856" class="mdl-progress mdl-js-progress is-upgraded" data-upgraded=",MaterialProgress"><div class="progressbar bar bar1" style="width: 20%;"></div><div class="bufferbar bar bar2" style="width: 100%;"></div><div class="auxbar bar bar3" style="width: 0%;"></div></div>
               <script>
-                document.querySelector("#skill_level_104016768").addEventListener('mdl-componentupgraded', function() {
+                document.querySelector("#skill_level_61137856").addEventListener('mdl-componentupgraded', function() {
                 this.MaterialProgress.setProgress(20);
                 });
               </script>
@@ -184,12 +184,12 @@
             <div class="skill-level">
 
               <label><span>
-                Erlang<span></span></span></label>
+                Erlang</span></label>
               
               
-              <div id="skill_level_104016832" class="mdl-progress mdl-js-progress is-upgraded" data-upgraded=",MaterialProgress"><div class="progressbar bar bar1" style="width: 20%;"></div><div class="bufferbar bar bar2" style="width: 100%;"></div><div class="auxbar bar bar3" style="width: 0%;"></div></div>
+              <div id="skill_level_61137952" class="mdl-progress mdl-js-progress is-upgraded" data-upgraded=",MaterialProgress"><div class="progressbar bar bar1" style="width: 20%;"></div><div class="bufferbar bar bar2" style="width: 100%;"></div><div class="auxbar bar bar3" style="width: 0%;"></div></div>
               <script>
-                document.querySelector("#skill_level_104016832").addEventListener('mdl-componentupgraded', function() {
+                document.querySelector("#skill_level_61137952").addEventListener('mdl-componentupgraded', function() {
                 this.MaterialProgress.setProgress(20);
                 });
               </script>
@@ -199,12 +199,12 @@
             <div class="skill-level">
 
               <label><span>
-                SQL<span></span></span></label>
+                SQL</span></label>
               
               
-              <div id="skill_level_104016896" class="mdl-progress mdl-js-progress is-upgraded" data-upgraded=",MaterialProgress"><div class="progressbar bar bar1" style="width: 20%;"></div><div class="bufferbar bar bar2" style="width: 100%;"></div><div class="auxbar bar bar3" style="width: 0%;"></div></div>
+              <div id="skill_level_61137248" class="mdl-progress mdl-js-progress is-upgraded" data-upgraded=",MaterialProgress"><div class="progressbar bar bar1" style="width: 20%;"></div><div class="bufferbar bar bar2" style="width: 100%;"></div><div class="auxbar bar bar3" style="width: 0%;"></div></div>
               <script>
-                document.querySelector("#skill_level_104016896").addEventListener('mdl-componentupgraded', function() {
+                document.querySelector("#skill_level_61137248").addEventListener('mdl-componentupgraded', function() {
                 this.MaterialProgress.setProgress(20);
                 });
               </script>
@@ -223,17 +223,7 @@
             <div class="skill-level">
 
               <label><span class="skill-category">
-                Version control<span></span></span></label>
-              
-                <span class="subskills">: Jira, Scrummy</span>
-              
-              
-             </div>
-          
-            <div class="skill-level">
-
-              <label><span class="skill-category">
-                Kanban tools:<span></span></span></label>
+                Version control</span></label>
               
                 <span class="subskills">: Git, IBM Clearcase, Gerrit</span>
               
@@ -243,7 +233,17 @@
             <div class="skill-level">
 
               <label><span class="skill-category">
-                Operating Systems (user level)<span></span></span></label>
+                Kanban tools:</span></label>
+              
+                <span class="subskills">: Jira, Scrummy</span>
+              
+              
+             </div>
+          
+            <div class="skill-level">
+
+              <label><span class="skill-category">
+                Operating Systems (user level)</span></label>
               
                 <span class="subskills">: Windows, Linux</span>
               
@@ -253,9 +253,9 @@
             <div class="skill-level">
 
               <label><span class="skill-category">
-                Software<span></span></span></label>
+                Software</span></label>
               
-                <span class="subskills">: Wireshark, Reaper DAW, DaVinci Resolve, Gimp, Inkscape, Darktable, MS Office, Open Office</span>
+                <span class="subskills">: Eclipse, Wireshark, Reaper DAW, DaVinci Resolve, Gimp, Inkscape, Darktable, MS Office, Open Office</span>
               
               
              </div>
@@ -272,7 +272,7 @@
             <div class="skill-level">
 
               <label><span class="skill-category">
-                Protocols<span></span></span></label>
+                Protocols</span></label>
               
                 <span class="subskills">: TCP/IP, Diameter, LDAP</span>
               
@@ -282,7 +282,7 @@
             <div class="skill-level">
 
               <label><span class="skill-category">
-                Web frameworks<span></span></span></label>
+                Web frameworks</span></label>
               
                 <span class="subskills">: JQuery, Google Material Design, Bootstrap, Flask</span>
               
@@ -292,7 +292,7 @@
             <div class="skill-level">
 
               <label><span class="skill-category">
-                CMS<span></span></span></label>
+                CMS</span></label>
               
                 <span class="subskills">: Wordpress, Umbraco</span>
               
@@ -302,7 +302,7 @@
             <div class="skill-level">
 
               <label><span class="skill-category">
-                Telecomunications<span></span></span></label>
+                Telecomunications</span></label>
               
                 <span class="subskills">: 3G and 4G networks, HLR/HSS/AuC, eNodeB, TCP/IP Networks, Signal watermarking</span>
               
@@ -312,7 +312,7 @@
             <div class="skill-level">
 
               <label><span class="skill-category">
-                Electronics<span></span></span></label>
+                Electronics</span></label>
               
                 <span class="subskills">: Basic audio circuit design, NODE MCU, Soldering, </span>
               
@@ -322,7 +322,7 @@
             <div class="skill-level">
 
               <label><span class="skill-category">
-                Other frameworks<span></span></span></label>
+                Other frameworks</span></label>
               
                 <span class="subskills">: OpenCV, PyGame, Google Test, PyTest</span>
               
@@ -341,7 +341,7 @@
             <div class="skill-level">
 
               <label><span class="skill-category">
-                Languages<span></span></span></label>
+                Languages</span></label>
               
                 <span class="subskills">: English (fluent), Russian (basic)</span>
               
@@ -351,7 +351,7 @@
             <div class="skill-level">
 
               <label><span class="skill-category">
-                Work methodologies<span></span></span></label>
+                Work methodologies</span></label>
               
                 <span class="subskills">: Scrum methodology, Agile developement</span>
               
@@ -361,7 +361,7 @@
             <div class="skill-level">
 
               <label><span class="skill-category">
-                Driving lincense<span></span></span></label>
+                Driving lincense</span></label>
               
                 <span class="subskills">: Cat. B</span>
               
@@ -371,7 +371,7 @@
             <div class="skill-level">
 
               <label><span class="skill-category">
-                Music Production<span></span></span></label>
+                Music Production</span></label>
               
                 <span class="subskills">: recording, mix, mastering, live mix</span>
               
@@ -381,7 +381,7 @@
             <div class="skill-level">
 
               <label><span class="skill-category">
-                Other<span></span></span></label>
+                Other</span></label>
               
                 <span class="subskills">: Beer brewing! :)</span>
               
@@ -399,6 +399,29 @@
 
     <h1>Projects</h1>
 
+    <div id="overlay-text">
+      <button id="webdesign-button" class="mdl-button mdl-js-button" onclick="toggleVisibility('webdesign')" data-upgraded=",MaterialButton">Web Design</button>
+      <button id="sound-button" class="mdl-button mdl-js-button" onclick="toggleVisibility('sound')" data-upgraded=",MaterialButton">Sound</button>
+      <button id="filmmaking-button" class="mdl-button mdl-js-button" onclick="toggleVisibility('filmmaking')" data-upgraded=",MaterialButton">Film Making</button>
+      <button id="brewing-button" class="mdl-button mdl-js-button" onclick="toggleVisibility('brewing')" data-upgraded=",MaterialButton">Brewing</button>
+    </div>
+
+      
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card webdesign">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">drugiplan.com</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          <p>In cooperation with Arkadiusz Salawa, we have created an online reservation service for wedding gadgets suplier. </p><p>Wordpress + Woocommerce + jQuery</p>
+        </div>
+        
+        <div class="mdl-card__actions mdl-card--border">
+          <a href="http://drugiplan.com/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
+            Visit
+          <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
+        </div>
+        
+      </div>
       
       <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card webdesign">
         <div class="mdl-card__title">
@@ -410,11 +433,13 @@
 designed a dark, yet shiny page, making a visitor sense underlying mood 
 of old-fashioned craftsmanship</p><p>Technologies: Bootstrap + Umbraco CMS</p>
         </div>
+        
         <div class="mdl-card__actions mdl-card--border">
           <a href="http://szkolazlotnictwa.pl/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
             Visit
           <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
         </div>
+        
       </div>
       
       <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card webdesign">
@@ -427,11 +452,61 @@ for sharing school's activities and knowledge from field of Jewelry. As
 what was needed was a simple to maintain blog we decided to use a 
 standard WP template.</p><p>Technologies: Wordpress</p>
         </div>
+        
         <div class="mdl-card__actions mdl-card--border">
           <a href="http://127.0.0.1:5000/blog.szkolazlotnictwa.pl" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
             Visit
           <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
         </div>
+        
+      </div>
+      
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card webdesign">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">harmonogram</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          <p>When I was working only on 4/5 time i needed tool to 
+calculate how much hours should I spend at work, and to report my 
+worktime. This is how Harmonogram Tool started.</p><p>jQuery + Javascript + HTML + CSS</p>
+        </div>
+        
+        <div class="mdl-card__actions mdl-card--border">
+          <a href="http://127.0.0.1:5000/harmonogram/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
+            Visit
+          <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
+        </div>
+        
+      </div>
+      
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card webdesign">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Client management system for Szkoła Złotnictwa</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          <p>Another cooperation with Szkoła Złotnictwa. This time it is
+ custom client management system, able to store financial info, 
+timeplans and issue invoices.</p><p>Technologies: Django, Bootstrap, jQuery</p>
+        </div>
+        
+      </div>
+      
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card webdesign">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Zbigniew Kokosiński homepage</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          <p>When my father said that he needs to refresh his homepage I
+ kneew it will be an interesting task. He insisted on having his 
+minimalistic page in plain HTML so he could edit it himself.</p><p>Technologies: HTML, Bootstrap</p>
+        </div>
+        
+        <div class="mdl-card__actions mdl-card--border">
+          <a href="http://riad.pk.edu.pl/~zk/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
+            Visit
+          <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
+        </div>
+        
       </div>
       
       <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card webdesign">
@@ -444,11 +519,29 @@ make a bilingual webpage for her, so she could shere photos of her work,
  posts and links. We decided to set our starting point with template 
 using masonry.js and modify it according to the needs.</p><p>Technologies: Wordpress, masonry.js, polylang</p>
         </div>
+        
         <div class="mdl-card__actions mdl-card--border">
           <a href="http://magdalenamaslerz.pl/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
             Visit
           <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
         </div>
+        
+      </div>
+      
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card filmmaking">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Obrączki DIY: Ewa i Bartek</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+                    <p>A short promo movie for szkolazlotnictwa showing a couple making their own wedding bands. Shot and edited by myself.</p>
+        </div>
+        
+        <div class="mdl-card__actions mdl-card--border">
+          <a href="https://www.youtube.com/watch?v=iQYhojUjc-U" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
+            Watch
+          <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
+        </div>
+        
       </div>
       
       <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card webdesign">
@@ -461,11 +554,13 @@ HTML know-how had a homepage. Today we have our Twitters, Instagrams,
 Facebooks, but I decided to regain control of my internet visit-card and
  made this page :)</p><p>Technologies: Flask, JSON, Material Design Lite</p>
         </div>
+        
         <div class="mdl-card__actions mdl-card--border">
           <a href="" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
             Refresh
           <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
         </div>
+        
       </div>
       
       <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card webdesign sound">
@@ -477,11 +572,13 @@ Facebooks, but I decided to regain control of my internet visit-card and
  blues-rock band Dust Bowl. Together we have played several gigs and 
 recorder an EP </p><p>When we decided, that we need a webpage, I was the one to do it ;) (Bootstrap + Umbraco CMS) </p>
         </div>
+        
         <div class="mdl-card__actions mdl-card--border">
           <a href="http://dustbowl.pl/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
             Visit &amp; Listen
           <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
         </div>
+        
       </div>
       
       <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card sound">
@@ -495,11 +592,13 @@ plunge into death metal started. </p><p>All parts, except for drums,
 were recorded by me in my homestudio. I also did mix, mastering, and a 
 little bit of produ... Oh, nevermind, just take a listen if you wish:
         </p></div>
+        
         <div class="mdl-card__actions mdl-card--border">
           <a href="http://profanus.bandcamp.com/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
             Listen
           <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
         </div>
+        
       </div>
       
       <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card sound filmmaking">
@@ -515,11 +614,13 @@ everything else. Our first approach was 'let's become avant-garde of the
  new wave of polish black metal!'. Did we manage to? Not really, but we 
 still do like the output :)</p>
         </div>
+        
         <div class="mdl-card__actions mdl-card--border">
           <a href="https://www.youtube.com/watch?v=a74ASPC34ew&amp;list=PLekQG6L6JMJ2KLAWBngrNhRViY5bmu1xJ" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
             Listen
           <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
         </div>
+        
       </div>
       
       <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card brewing">
@@ -533,11 +634,13 @@ umanly extracts allowed. And thats how it started, since now we have
 brewed about 20 beers, (I hope this page is up to date! :D) mainly with 
 strong american hop character.</p><p>If you know polish you can read about it on Jerry's blog:</p>
         </div>
+        
         <div class="mdl-card__actions mdl-card--border">
           <a href="http://jerrybrewery.pl/tag/warzenie/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
             Visit
           <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
         </div>
+        
       </div>
       
       <div class="demo-card-wide mdl-card mdl-shadow--2dp project-card sound filmmaking">
@@ -554,11 +657,13 @@ footage with one common element: the city. During project I had
 opportunity to try my chances in acting, operating camera, score writing
  and sound production.</p>
         </div>
+        
         <div class="mdl-card__actions mdl-card--border">
           <a href="https://www.youtube.com/watch?v=7JhxEmQ0fLk" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
             Watch
           <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
         </div>
+        
       </div>
       
     </div>

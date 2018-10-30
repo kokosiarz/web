@@ -15,6 +15,7 @@ def home():
 def pdf():
     with open('data.json',encoding='utf8') as data_file:
         data = json.load(data_file)
-        
+    return data
+
 if __name__ == "__main__":
     app.run(debug=True)

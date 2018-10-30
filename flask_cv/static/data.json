@@ -38,7 +38,7 @@
       "name" : "drugiplan.com",
       "tags" : "webdesign",
       "html_description" :
-        "<p>In cooperation with Arkadiusz Salawa, we have created an online reservation service for wedding gadgets suplier. </p><p>Wordpress + Woocommerce + jQuery</p>",
+        "<p>In cooperation with Arkadiusz Salawa, we have created an online reservation service for wedding gadgets suplier. </p><p>Wordpress + Woocommerce + jQuery + CSS</p>",
       "button" : {
         "button_label":"Visit",
         "button_href":"http://drugiplan.com/"
@@ -55,6 +55,16 @@
       }
     },
     {
+      "name" : "harmonogram",
+      "tags" : "webdesign",
+      "html_description" :
+        "<p>When I was working only on 4/5 time i needed tool to calculate how much hours should I spend at work, and to report my worktime. This is how Harmonogram Tool started.</p>><p>jQuery + Javascript + HTML + CSS</p>",
+      "button" : {
+        "button_label":"Visit",
+        "button_href":"/harmonogram/"
+      }
+    },
+    {
       "name" : "blog.szkolazlotnictwa.pl",
       "tags" : "webdesign",
       "html_description" :
@@ -62,16 +72,6 @@
       "button" : {
         "button_label":"Visit",
         "button_href":"blog.szkolazlotnictwa.pl"
-      }
-    },
-    {
-      "name" : "harmonogram",
-      "tags" : "webdesign",
-      "html_description" :
-        "<p>When I was working only on 4/5 time i needed tool to calculate how much hours should I spend at work, and to report my worktime. This is how Harmonogram Tool started.</p><p>jQuery + Javascript + HTML + CSS</p>",
-      "button" : {
-        "button_label":"Visit",
-        "button_href":"/harmonogram/"
       }
     },
     {
@@ -98,16 +98,6 @@
       "button" : {
         "button_label":"Visit",
         "button_href":"http://magdalenamaslerz.pl/"
-      }
-    },
-    {
-      "name" : "Obrączki DIY: Ewa i Bartek",
-      "tags" : "filmmaking",
-      "html_description" :
-        "          <p>A short promo movie for szkolazlotnictwa showing a couple making their own wedding bands. Shot and edited by myself.</p>",
-      "button" : {
-        "button_label":"Watch",
-        "button_href":"https://www.youtube.com/watch?v=iQYhojUjc-U"
       }
     },
     {
@@ -170,6 +160,7 @@
         "button_href":"https://www.youtube.com/watch?v=7JhxEmQ0fLk"
       }
     }
+
   ],
 
   "skill_groups" : [
