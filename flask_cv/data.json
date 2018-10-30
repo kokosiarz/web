@@ -38,7 +38,7 @@
       "name" : "drugiplan.com",
       "tags" : "webdesign",
       "html_description" :
-        "<p>In cooperation with Arkadiusz Salawa, we have created an online reservation service for wedding gadgets suplier. </p><p>Wordpress + Woocommerce + jQuery</p>",
+        "<p>In cooperation with Arkadiusz Salawa, we have created an online reservation service for wedding gadgets suplier. </p><p>Technologies: Wordpress + Woocommerce + jQuery</p>",
       "button" : {
         "button_label":"Visit",
         "button_href":"http://drugiplan.com/"
@@ -68,7 +68,7 @@
       "name" : "harmonogram",
       "tags" : "webdesign",
       "html_description" :
-        "<p>When I was working only on 4/5 time i needed tool to calculate how much hours should I spend at work, and to report my worktime. This is how Harmonogram Tool started.</p><p>jQuery + Javascript + HTML + CSS</p>",
+        "<p>When I was working only on 4/5 time i needed tool to calculate how much hours should I spend at work, and to report my worktime. This is how Harmonogram Tool started.</p><p>Technologies: jQuery + Javascript + HTML + CSS</p>",
       "button" : {
         "button_label":"Visit",
         "button_href":"/harmonogram/"
